@@ -1,0 +1,96 @@
+.bg-cont {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.fruits-cont {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  border-radius: 10px;
+}
+.card-cont {
+  display: flex;
+}
+.man-cont {
+  display: flex;
+  flex-direction: column;
+}
+.ban-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+.image {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 30px;
+}
+.button {
+  background-color: #007bff;
+  color: white;
+  height: 30px;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+}
+.count-text {
+  color: #ffd569;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    width: 296px;
+    height: 275px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .man-cont {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ban-cont {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-cont {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 768px) {
+  .count-text {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-cont {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+}
